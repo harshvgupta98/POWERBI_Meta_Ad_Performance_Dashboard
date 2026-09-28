@@ -4,6 +4,23 @@ A Power BI dashboard analysing Meta advertising performance across Facebook and 
 
 ---
 
+## Dashboard Preview
+
+**Facebook View**
+
+![Meta Ad Performance Dashboard — Facebook](Snapshot_Meta_Facebook.png)
+
+**Instagram View**
+
+![Meta Ad Performance Dashboard — Instagram](Snapshot_Meta_Instagram.png)
+
+**Custom Tooltip**
+
+![Custom KPI Tooltip](Snapshot_ToolTip.png)
+
+
+---
+
 ## Short Description
 
 A Power BI dashboard built to analyse Meta ad performance across Facebook and Instagram. It tracks key metrics like impressions, clicks, CTR, engagement rate, and purchase rate — broken down by platform, ad type, age, gender, country, and time. Built using a star schema data model with DAX measures and a dynamic measure slicer for flexible KPI analysis.
@@ -124,18 +141,3 @@ Star schema with `ad_events` as the fact table connected to `ads`, `campaigns`, 
 
 > The `.pbit` template file does not contain data — connect to the CSV files on first open.
 
----
-
-## Dashboard Preview
-
-**Facebook View**
-
-![Meta Ad Performance Dashboard — Facebook](Snapshot_Meta_Facebook.png)
-
-**Instagram View**
-
-![Meta Ad Performance Dashboard — Instagram](Snapshot_Meta_Instagram.png)
-
-**Custom Tooltip**
-
-![Custom KPI Tooltip](Snapshot_ToolTip.png)
